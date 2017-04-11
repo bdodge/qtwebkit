@@ -1,5 +1,6 @@
 # editor backups, object files, and other generic build artifacts
 *.a
+*.bak
 *.class
 *.ilk
 *.intermediate.manifest

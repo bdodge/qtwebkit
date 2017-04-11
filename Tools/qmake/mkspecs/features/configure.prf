@@ -126,9 +126,9 @@ defineTest(finalizeConfigure) {
     production_build:blackberry {
         addReasonForSkippingBuild("Build not supported on BB10.")
     }
-    production_build:android {
-        addReasonForSkippingBuild("Build not supported on Android.")
-    }
+#    production_build:android {
+#        addReasonForSkippingBuild("Build not supported on Android.")
+#    }
     winrt: addReasonForSkippingBuild("QtWebKit is not supported on Windows Phone/Windows RT")
     requiredPrograms = gperf python perl bison ruby flex
     for(program, requiredPrograms): \
